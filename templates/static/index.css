@@ -1,0 +1,21 @@
+#actualpage {
+  background: red;
+  /* DIN A4 standard paper size */
+  margin-left: auto;
+  margin-right: auto;
+  height: 297mm;
+  width: 210mm;
+}
+
+footer {
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 10px;
+}
+
+#btn {
+  margin-left: 90%;
+  color: red;
+}
