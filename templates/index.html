@@ -3,20 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Resume Maker</title>
-    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
     <script
     			  src="https://code.jquery.com/jquery-3.3.1.min.js"
     			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     			  crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="static/index.css">
-    <script src="xepOnline.jqPlugin.js"></script>
+    <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
   </head>
   <body>
     <button type="button" id="btn">Save Pdf</button>
     <div id="actualpage">
-      <h1>Hello world</h1>
+      <h1>Hello {{name}}</h1>
     </div>
   </body>
-  <script src="static/index.js"></script>
   <!-- <footer>&copy; @wahiddyno</footer> -->
 </html>
