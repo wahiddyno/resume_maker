@@ -11,22 +11,48 @@
   </head>
   <body>
     <div id="actualpage">
-      <div id="imagebox">
-        <img id="dp" src="dp.jpg" alt="">
+      <div class="top" style="background-color:purple;">
+        <div id="imagebox" style="background-color:yellow;">
+          <img id="dp" src="dp.jpg" alt="">
+        </div>
+        <div id="namebox">
+          <b style="font-size:35px;">Abdul Wahid I.</b>
+          <div id="title">
+            <i style="font-size:22px;">Data Associate</i>
+          </div>
+          <div id="about"> <!--Not more than 200 words-->
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          </div>
+        </div>
       </div>
-      <div id="namebox">
-        <b style="font-size:35px;">Abdul Wahid I.</b>
-        <div id="title">
-          <i style="font-size:22px;">Data Associate</i>
-        </div>
-        <div id="about"> <!--Not more than 200 words-->
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        </div>
+      <div style="background-color:pink;">
+        <span style="opacity:0">nclsncsjkc</span>
+        <hr class="style18">
       </div>
     </div>
   </body>
   <!-- <footer>&copy; @wahiddyno</footer> -->
   <style media="screen">
+
+    hr.style18 {
+    height: 30px;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    }
+  hr.style18:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    }
+
+
   #imagebox {
     float: left;
     margin-left: 2.5%;
@@ -55,6 +81,7 @@
     margin-right: auto;
     height: 297mm;
     width: 210mm;
+    z-index: -1;
   }
 
   footer {
